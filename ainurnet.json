@@ -1,0 +1,1365 @@
+{
+  "items": [
+    {
+      "groupid": "custom",
+      "type": "singbox",
+      "site": "",
+      "remark": "Самостоятельная настройка",
+      "urlOrPath": "",
+      "userAgentAppend": true,
+      "userAgentCompatible": "",
+      "userAgentCompatibles": [
+        ""
+      ],
+      "xhwid": false,
+      "proxyFilter": {
+        "method": "all",
+        "keywordOrRegx": ""
+      },
+      "proxyFilterRemove": [],
+      "keepDiversionRules": false,
+      "enableDiversionRules": true,
+      "reloadAfterProfileUpdate": true,
+      "testLatencyAfterProfileUpdate": false,
+      "testLatencyAutoRemove": false,
+      "enable": true,
+      "editAble": false,
+      "updateTime": "",
+      "proxyStrategy": "preferProxy",
+      "decryptPassword": "",
+      "updateDurationMinutes": null,
+      "traffic": null,
+      "isp": null,
+      "servers": [],
+      "urltests": [
+        {
+          "remark": "🇷🇺 Россия Wi-Fi /  LTE",
+          "tags": [
+            "🇷🇺 Доступ - Россия",
+            "🇷🇺 Доступ - Россия 2",
+            "🇷🇺 Белый список - Россия"
+          ],
+          "regexs": []
+        },
+        {
+          "remark": "🇫🇮 Финляндия Wi-Fi /  LTE",
+          "tags": [
+            "🇫🇮 Доступ - Финляндия",
+            "🇫🇮 Белый список - Финляндия"
+          ],
+          "regexs": []
+        }
+      ]
+    },
+    {
+      "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+      "type": "clash",
+      "site": "",
+      "remark": "SigmaGate.Link Доступ",
+      "urlOrPath": "https://gate.accessgate.link:8000/gate/eML3PNtecYuCmyYy",
+      "userAgentAppend": true,
+      "userAgentCompatible": "ClashMeta;sing-box;clash-verge;NekoBox/Android/1.3.1 (Prefer ClashMeta Format);HiddifyNext;v2ray",
+      "userAgentCompatibles": [
+        "ClashMeta",
+        "sing-box",
+        "clash-verge",
+        "NekoBox/Android/1.3.1 (Prefer ClashMeta Format)",
+        "HiddifyNext",
+        "v2ray"
+      ],
+      "xhwid": true,
+      "proxyFilter": {
+        "method": "all",
+        "keywordOrRegx": ""
+      },
+      "proxyFilterRemove": [],
+      "keepDiversionRules": false,
+      "enableDiversionRules": false,
+      "reloadAfterProfileUpdate": true,
+      "testLatencyAfterProfileUpdate": false,
+      "testLatencyAutoRemove": false,
+      "enable": true,
+      "editAble": false,
+      "updateTime": "2026-09-26 10:51:11.821732",
+      "proxyStrategy": "preferProxy",
+      "decryptPassword": "",
+      "updateDurationMinutes": 720,
+      "traffic": {
+        "updateTime": "2026-09-26 10:51:11.976243",
+        "upload": "0 B",
+        "download": "17.5 GB",
+        "total": "1000.0 GB",
+        "expire": "2027-09-23",
+        "over_quota": false
+      },
+      "isp": null,
+      "servers": [
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte1.accessgate.link",
+          "server_port": 2085,
+          "tag": "🇷🇺 LTE Only - Россия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "firefox"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte2.accessgate.link",
+          "server_port": 2088,
+          "tag": "🇧🇾 LTE Only - Беларусь",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "firefox"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte2.accessgate.link",
+          "server_port": 2083,
+          "tag": "🇪🇪 LTE Only - Эстония",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte2.accessgate.link",
+          "server_port": 2089,
+          "tag": "🇩🇪 LTE Only -  Германия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte2.accessgate.link",
+          "server_port": 2084,
+          "tag": "🇸🇪 LTE Only - Швеция",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte1.accessgate.link",
+          "server_port": 2080,
+          "tag": "🇵🇱 LTE Only - Польша",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect3.accessgate.link",
+          "server_port": 443,
+          "tag": "🇦🇶 Автовыбор игровой",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "64",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect1.accessgate.link",
+          "server_port": 3088,
+          "tag": "🇷🇺 Доступ - Россия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "rus1.accessgate.link",
+          "server_port": 443,
+          "tag": "🇷🇺 Доступ - Россия 2",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "56",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "blr.accessgate.link",
+          "server_port": 443,
+          "tag": "🇧🇾 Доступ - Беларусь",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "bel.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇧🇪 Доступ - Бельгия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "qq"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "gbr.accessgate.link",
+          "server_port": 2096,
+          "tag": "🇬🇧 Доступ - Великобритания",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 2086,
+          "tag": "🇷🇴 Доступ - Румыния",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "56",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "dnk.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇩🇰 Доступ - Дания",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "96",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "ltu.accessgate.link",
+          "server_port": 2096,
+          "tag": "🇱🇹 Доступ - Литва",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "75",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect1.accessgate.link",
+          "server_port": 3880,
+          "tag": "🇳🇱 Доступ - Нидерланды",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "50",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect10.accessgate.link",
+          "server_port": 443,
+          "tag": "🇫🇮 Доступ - Финляндия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "fin2.accessgate.link",
+          "server_port": 2096,
+          "tag": "🇫🇮 Доступ - Финляндия (Тестовый)",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "firefox"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "47",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect1.accessgate.link",
+          "server_port": 2880,
+          "tag": "🇪🇪 Доступ - Эстония",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "ita.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇮🇹 Доступ -  Италия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "92",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect.accessgate.link",
+          "server_port": 3085,
+          "tag": "🇧🇬 Доступ - Болгария",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "c_42sYo1oPuFy6MmGKVkFxnNmDOZ0WoIiFGg8UJ12Aw",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "aut.accessgate.link",
+          "server_port": 443,
+          "tag": "🇦🇹  Доступ - Австрия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "67",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "lva.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇱🇻 Доступ -  Латвия",
+          "type": "hysteria2",
+          "password": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "tls": {
+            "enabled": true,
+            "server_name": "lva.accessgate.link",
+            "alpn": [
+              "h3"
+            ]
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "102",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "srb.accessgate.link",
+          "server_port": 443,
+          "tag": "🇷🇸 Доступ - Сербия",
+          "type": "hysteria2",
+          "password": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "tls": {
+            "enabled": true,
+            "server_name": "srb.accessgate.link",
+            "alpn": [
+              "h3"
+            ]
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "86",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "hrv.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇭🇷 Доступ - Хорватия",
+          "type": "hysteria2",
+          "password": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "tls": {
+            "enabled": true,
+            "server_name": "hrv.accessgate.link",
+            "alpn": [
+              "h3"
+            ]
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "55",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect4.accessgate.link",
+          "server_port": 1085,
+          "tag": "🇸🇪 Доступ - Швеция",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "121",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect4.accessgate.link",
+          "server_port": 1085,
+          "tag": "🇸🇪 Доступ - Швеция 2",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect4.accessgate.link",
+          "server_port": 1085,
+          "tag": "🇸🇪 Доступ - Швеция 3",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "69",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "cze.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇨🇿 Доступ - Чехия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "94",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect.accessgate.link",
+          "server_port": 2080,
+          "tag": "🇵🇱 Доступ - Польша",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "86",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "nor.accessgate.link",
+          "server_port": 2096,
+          "tag": "🇳🇴 Доступ - Норвегия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "71",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "fra.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇫🇷 Доступ - Франция",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "arm.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇦🇲 Доступ - Армения",
+          "type": "hysteria2",
+          "password": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "tls": {
+            "enabled": true,
+            "server_name": "arm.accessgate.link",
+            "alpn": [
+              "h3"
+            ]
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "67",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect4.accessgate.link",
+          "server_port": 443,
+          "tag": "🇩🇪 Доступ - Германия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "74",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 2080,
+          "tag": "🇩🇪 Доступ - Германия 2",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "deu.accessgate.link",
+          "server_port": 8080,
+          "tag": "🇩🇪 Доступ - Германия (Тестовый)",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "deu1.accessgate.link",
+          "server_port": 443,
+          "tag": "🇩🇪 Доступ - Германия 2 (Тестовый)",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "100",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect.accessgate.link",
+          "server_port": 4890,
+          "tag": "🇹🇷 Доступ - Турция",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "124",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 3085,
+          "tag": "🇮🇱 Доступ - Израиль",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 19733,
+          "tag": "🇬🇪 Доступ - Грузия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 2087,
+          "tag": "🇺🇿 Доступ - Узбекистан",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "169",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect6.accessgate.link",
+          "server_port": 2085,
+          "tag": "🇺🇸 Доступ - США New York",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "207",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect6.accessgate.link",
+          "server_port": 2086,
+          "tag": "🇺🇸 Доступ - США Kansas",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "141",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect.accessgate.link",
+          "server_port": 2088,
+          "tag": "🇰🇿 Доступ - Казахстан",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect2.accessgate.link",
+          "server_port": 3030,
+          "tag": "🇸🇬 Доступ - Сингапур",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "388",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect9.accessgate.link",
+          "server_port": 2080,
+          "tag": "🇭🇰 Доступ - Гонконг",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "439",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "connect9.accessgate.link",
+          "server_port": 2085,
+          "tag": "🇯🇵 Доступ - Япония",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdnjs.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "edge"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        },
+        {
+          "groupid": "5bf0c075-3f41-407b-ac3d-7a458c9d70a9",
+          "attach": "",
+          "latency": "79",
+          "outlet_ip": "",
+          "outlet_region": "",
+          "server": "wte1.accessgate.link",
+          "server_port": 2085,
+          "tag": "🇷🇺 Белый список - Россия",
+          "type": "vless",
+          "uuid": "1a5595bc-0567-484f-adc4-d55f01be8876",
+          "flow": "xtls-rprx-vision",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "unpkg.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "firefox"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+              "short_id": "b0d8c9a285c70f6f"
+            }
+          }
+        }
+      ],
+      "urltests": []
+    }
+  ]
+}
